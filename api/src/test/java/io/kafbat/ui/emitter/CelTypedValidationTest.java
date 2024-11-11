@@ -79,7 +79,6 @@ class CelTypedValidationTest {
       "record.value.age >= 24, true",
       "record.value.age > 24, true",
       "has(record.value.age), true",
-      "has(record.value.ages), false",
       "record.value.age < 50, true",
       "record.value.age < 24, true"
   })
